@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		int x,y;
+		int a,b;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		System.out.println("학번과 점수를 입력하시오.");
+		System.out.print("양아치 학번 : ");
+		x = sc.nextInt();
+		System.out.print("양아치 점수 : ");
+		y = sc.nextInt();
+		System.out.print("\n");
+		System.out.print("날라리 학번 : ");
+		a = sc.nextInt();
+		System.out.print("날라리 점수 : ");
+		b = sc.nextInt();
+		System.out.print("\n");
+
+		System.out.printf("양아치 학번은 %03d학번, 점수는 %d점입니다.\n",x,y);
+		System.out.printf("양아치 학번은 %03d학번, 점수는 %d점입니다.",a,b);
+		
+	}
+
+}
